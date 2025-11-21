@@ -11,6 +11,7 @@ if (!isset($_SESSION['user_id'])) {
 <form action="../../controller/TicketController.php" method="POST" enctype="multipart/form-data">
 
 
+
     <label>Name</label>
     <input type="text" name="name" required>
 
